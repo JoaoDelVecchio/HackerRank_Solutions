@@ -13,24 +13,24 @@ vector<string> split(const string &);
  * The function accepts 2D_INTEGER_ARRAY arr as parameter.
  */
 
-int diagonalDifference(vector<vector<int>> arr) {
+int diagonalDifference(vector<vector<int> > arr) {
     int diagonal1 = 0;
     int diagonal2 = 0;
     for (int i=0; i<arr.size(); i++){
         for(int j=0; j<arr.size(); j++){
             if(i==j){
                 diagonal1 += arr[i][j];
-                
+
             }
             if (i + j == arr.size() - 1) {
                 diagonal2 += arr[i][j];
             }
-            
+
         }
-        
-        
+
+
     }
-    
+
     return abs(diagonal1 - diagonal2);
 
 }
