@@ -1,0 +1,4 @@
+statement: https://www.hackerrank.com/challenges/one-week-preparation-kit-tower-breakers-1/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-three
+
+
+The solution to this problem comes from a recurrence analysis regarding the possibility of Player 1 winning. Through some mathematical considerations, I realized that for a game with n = 2, each time we have a configuration like [n, k] with k smaller than n, the player whose turn it is will have a winning position. In this way, when in the [n, n] situation, every move by the current player leads back to the former described position, which means the current player is bound to lose. With this understanding, a simple recursive approach leads to the solution where an odd n makes Player 1 the winner, and an even n makes Player 2 the winner.
