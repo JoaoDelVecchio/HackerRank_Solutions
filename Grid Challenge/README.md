@@ -1,0 +1,3 @@
+Statement: https://www.hackerrank.com/challenges/one-week-preparation-kit-grid-challenge/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-four
+
+The main idea to solve this problem was to transform the multiple strings from the initial array into lists. Then, we turned our lists into a matrix, where we can apply ordering methods like sort() and iterate through the matrix to verify if the columns are ascending or not.
