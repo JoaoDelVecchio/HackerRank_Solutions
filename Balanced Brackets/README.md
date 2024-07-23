@@ -1,0 +1,4 @@
+https://www.hackerrank.com/challenges/one-week-preparation-kit-balanced-brackets/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-week-preparation-kit&playlist_slugs%5B%5D=one-week-day-five
+
+
+The mais idea to resolve it was to create a stack First In Last Out, and put all the initial Brackets in that stack.  So when we find a "close" Bracket we just verify if it has the same "type" of the one on the top of the stack. If is the same, we remove. If it isn't, so the brackets are not balanced. Moreover, after iterating all the string, we must have the stack empty for balanced bracket's.
