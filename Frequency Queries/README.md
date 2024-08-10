@@ -1,0 +1,4 @@
+[text](https://www.hackerrank.com/challenges/frequency-queries/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
+
+
+The solution to the problem involved the use of hash maps, which can be easily implemented using the dict type in Python. The use of hash maps allowed us to perform queries, insertions, and deletions in constant time. Another effective strategy was to use two hash maps: one with the key being the element and the value being its frequency, and the other with the key being the frequency and the value being the number of occurrences of that frequency in the first hash map.
